@@ -1,0 +1,594 @@
+[1m[3m%[23m[1m[0m                                                                                                                       ]7;file://Carters-MacBook-Pro-7.local/Users/carterengberg/Hash/hashlab/src[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [K[?2004hssh umdacs12@10.172.1.193[25Dlogout                   [19Dnano Hashes.cpp[15Dls             [13Dcd srcls    cd Hash/hashlab[15Dpip install --upgrade pip[13Dpoker        [8D--upgrade pip[25Dcd Hash/hashlab          [10D[15Dls             [13Dcd srcls    nano Hashes.cpp[15Dlogout         [9Dssh umdacs12@10.172.1.193[25D                         [25Dssh umdacs12@10.172.1.193[25Dlogout                   [19Dssh umdacs12@10.172.1.193[25D                         [25Dsscreen -L[?2004l
+[1m[3m%[23m[1m[0m                                                                                                                       ]7;file://Carters-MacBook-Pro-7.local/Users/carterengberg/Hash/hashlab/src[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [K[?2004h[1m[3m%[23m[1m[0m                                                                                                                       ]7;file://Carters-MacBook-Pro-7.local/Users/carterengberg/Hash/hashlab/src[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [K[?2004h.././  smhasher StudentHash[?2004l
+zsh: no such file or directory: ./smhasher
+[1m[3m%[23m[1m[0m                                                                                                                       ]7;file://Carters-MacBook-Pro-7.local/Users/carterengberg/Hash/hashlab/src[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [K[?2004hlls[?2004l
+AvalancheTest.cpp	MakeCsv.sh		SpeedTest.h		md5.cpp
+AvalancheTest.h		MakeHashes.sh		Spooky.cpp		modchecker.sh
+Bitslice.cpp		Makefile		Spooky.h		ones
+Bitvec.cpp		MurmurHash1.cpp		SpookyTest.cpp		pstdint.h
+Bitvec.h		MurmurHash1.h		Stats.cpp		random
+CMakeLists.txt		MurmurHash2.cpp		Stats.h			runner
+City.cpp		MurmurHash2.h		StudentHashRunner.c	screenlog.0
+City.h			MurmurHash3.cpp		SuperFastHash.cpp	screenlog.1
+CityTest.cpp		MurmurHash3.h		Types.cpp		sha1.cpp
+DifferentialTest.cpp	PMurHash.c		Types.h			sha1.h
+DifferentialTest.h	PMurHash.h		a			shak
+HashStats.py		Platform.cpp		bitflip.py		test.txt
+Hashes.cpp		Platform.h		crc.cpp			zero
+Hashes.h		Random.cpp		hash_analysis.xlsx
+KeysetTest.cpp		Random.h		lookup3.cpp
+KeysetTest.h		SpeedTest.cpp		main.cpp
+[1m[3m%[23m[1m[0m                                                                                                                       ]7;file://Carters-MacBook-Pro-7.local/Users/carterengberg/Hash/hashlab/src[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [K[?2004h../smh   .  ../MakeHashes.sh[?2004l
+Creating a/a.orig...
+^C
+[1m[3m%[23m[1m[0m                                                                                                                       ]7;file://Carters-MacBook-Pro-7.local/Users/carterengberg/Hash/hashlab/src[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [K[?2004hmmake clean && make runner[?2004l
+rm -rf *.o smhasher runner
+g++  StudentHashRunner.c Hashes.cpp -o runner
+clang: [0;1;35mwarning: [0m[1mtreating 'c' input as 'c++' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+[1m[3m%[23m[1m[0m                                                                                                                       ]7;file://Carters-MacBook-Pro-7.local/Users/carterengberg/Hash/hashlab/src[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [K[?2004h../Make
+[JMakeCsv.sh*     MakeHashes.sh*M[0m[23m[24m[42C./Make[KHashes.sh[1m [0m[0m [?2004l
+[JCreating a/a.orig...
+Creating a/a.mod...
+Creating a/mod.alt (alternating)
+Creating ones/ones.orig...
+Creating ones/ones.mod...
+Creating ones/mod.alt (alternating)
+Creating shak/shak.orig...
+Creating shak/shak.mod...
+Creating shak/mod.alt (alternating)
+Creating zero/zero.orig...
+Creating zero/zero.mod...
+Creating zero/mod.alt (alternating)
+Creating random/random.orig...
+Creating random/random.mod...
+Creating random/mod.alt (alternating)
+[1m[3m%[23m[1m[0m                                                                                                                       ]7;file://Carters-MacBook-Pro-7.local/Users/carterengberg/Hash/hashlab/src[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [K[?2004h../HashStats.py -i shak/shak.orig[?2004l
+
+/Users/carterengberg/Hash/hashlab/src/./HashStats.py:70: SyntaxWarning: invalid escape sequence '\s'
+  p = re.compile("^([0-9a-f]+)\s+[\w/]+/(\d+)$")
+Traceback (most recent call last):
+  File [35m"/Users/carterengberg/Hash/hashlab/src/./HashStats.py"[0m, line [35m7[0m, in [35m<module>[0m
+    import numpy
+[1;35mModuleNotFoundError[0m: [35mNo module named 'numpy'[0m
+[1m[3m%[23m[1m[0m                                                                                                                       ]7;file://Carters-MacBook-Pro-7.local/Users/carterengberg/Hash/hashlab/src[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [K[?2004h[?2004l
+[1m[3m%[23m[1m[0m                                                                                                                       ]7;file://Carters-MacBook-Pro-7.local/Users/carterengberg/Hash/hashlab/src[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [K[?2004h./HashStats.py -i shak/shak.orig                            .  ../HashStats.py -i shak/shak.alt -a -c shak.alt.csv[?2004l
+/Users/carterengberg/Hash/hashlab/src/./HashStats.py:70: SyntaxWarning: invalid escape sequence '\s'
+  p = re.compile("^([0-9a-f]+)\s+[\w/]+/(\d+)$")
+Traceback (most recent call last):
+  File [35m"/Users/carterengberg/Hash/hashlab/src/./HashStats.py"[0m, line [35m7[0m, in [35m<module>[0m
+    import numpy
+[1;35mModuleNotFoundError[0m: [35mNo module named 'numpy'[0m
+[1m[3m%[23m[1m[0m                                                                                                                       ]7;file://Carters-MacBook-Pro-7.local/Users/carterengberg/Hash/hashlab/src[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [K[?2004hppip install ny umpy[?2004l
+Collecting numpy
+  Downloading numpy-2.2.4-cp313-cp313-macosx_10_13_x86_64.whl.metadata (62 kB)
+Downloading numpy-2.2.4-cp313-cp313-macosx_10_13_x86_64.whl (20.9 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/20.9 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.4/20.9 MB[0m [31m14.1 MB/s[0m eta [36m0:00:02[0m[2K   [91m━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.5/20.9 MB[0m [31m11.2 MB/s[0m eta [36m0:00:02[0m[2K   [91m━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━[0m [32m10.2/20.9 MB[0m [31m17.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━[0m [32m14.7/20.9 MB[0m [31m18.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━[0m [32m18.9/20.9 MB[0m [31m18.9 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m20.9/20.9 MB[0m [31m17.5 MB/s[0m eta [36m0:00:00[0m
+[?25hInstalling collected packages: numpy
+Successfully installed numpy-2.2.4
+[1m[3m%[23m[1m[0m                                                                                                                       ]7;file://Carters-MacBook-Pro-7.local/Users/carterengberg/Hash/hashlab/src[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [K[?2004hpip install numpy[17D./HashS[2Cts.py -i shak/shak.alt -a -c shak.alt.csv[?2004l
+/Users/carterengberg/Hash/hashlab/src/./HashStats.py:70: SyntaxWarning: invalid escape sequence '\s'
+  p = re.compile("^([0-9a-f]+)\s+[\w/]+/(\d+)$")
+There were 10000 32-bit hashes, and 54 unique digests.
+All below ratios should be near 0.5!
+Avg. ratio of 1/0s per digest: 0.7899 row ones stdev: 0.2206
+Avg. ratio of 1/0s per column: 0.7899 column ones stdev: 0.0339
+Column ratios sorted:
+[0.8148148148148148, 0.7407407407407407, 0.7592592592592593, 0.8518518518518519, 0.7962962962962963, 0.7592592592592593, 0.7407407407407407, 0.7962962962962963, 0.8148148148148148, 0.8333333333333334, 0.7592592592592593, 0.8148148148148148, 0.7962962962962963, 0.7407407407407407, 0.7962962962962963, 0.7407407407407407, 0.8333333333333334, 0.8518518518518519, 0.8148148148148148, 0.7777777777777778, 0.7962962962962963, 0.8333333333333334, 0.7777777777777778, 0.7962962962962963, 0.7592592592592593, 0.7962962962962963, 0.7962962962962963, 0.7962962962962963, 0.8333333333333334, 0.7777777777777778, 0.7407407407407407, 0.7407407407407407]
+These statistics describe pairs of related inputs.
+Column ratios should be near 0.5 to indicate strict avalache on a 1-bit change.
+[1m[3m%[23m[1m[0m                                                                                                                       ]7;file://Carters-MacBook-Pro-7.local/Users/carterengberg/Hash/hashlab/src[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [K[?2004h./HashStats.py -i shak/shak.alt -a -c shak.alt.csv[50Dpip ins[2Cll numpy                                 [33D[17D./HashS[2Cts.py -i shak/shak.alt -a -c shak.alt.csv[22Dorig                  [18D[?2004l
+/Users/carterengberg/Hash/hashlab/src/./HashStats.py:70: SyntaxWarning: invalid escape sequence '\s'
+  p = re.compile("^([0-9a-f]+)\s+[\w/]+/(\d+)$")
+There were 10000 32-bit hashes, and 6989 unique digests.
+All below ratios should be near 0.5!
+Avg. ratio of 1/0s per digest: 0.4767 row ones stdev: 0.1069
+Avg. ratio of 1/0s per column: 0.4767 column ones stdev: 0.0139
+Column ratios sorted:
+[0.4748891114608671, 0.47202747174130777, 0.4790384890542281, 0.483617112605523, 0.48833881814279584, 0.487623408212906, 0.5005007869509229, 0.49806839318929746, 0.49105737587637716, 0.48833881814279584, 0.475175275432823, 0.47660609529260267, 0.47989698097009587, 0.4827586206896552, 0.4851910144512806, 0.4897696380025755, 0.5062240663900415, 0.4788954070682501, 0.4570038632136214, 0.4611532408069824, 0.46802117613392474, 0.4788954070682501, 0.46587494634425525, 0.4521390756903706, 0.4857633423951924, 0.47073973386750606, 0.45442838746601805, 0.4657318643582773, 0.4597224209472027, 0.4591500930032909, 0.4851910144512806, 0.4541422234940621]
+Collisions (blank if none):
+2257 collisions for digest 00000000000000000000000000000000
+16 collisions for digest 00000000000110111000000000000000
+4 collisions for digest 00010000001101111000000000000000
+24 collisions for digest 00000011100110000000000000000000
+17 collisions for digest 00000000000000000000011001000000
+11 collisions for digest 10000001110010000000000000000000
+47 collisions for digest 00000000000000000000110010100000
+25 collisions for digest 00000000000000001101001000000000
+1 collisions for digest 00001111001011011010000000000100
+19 collisions for digest 00000000000001101100000000000000
+1 collisions for digest 01000011100101101000001110100011
+1 collisions for digest 00000000000000011001010100001000
+3 collisions for digest 00000000000000001101110010000010
+5 collisions for digest 00000000000011011100110010100000
+13 collisions for digest 10000111010000000000000000000110
+1 collisions for digest 00111011100000000000000000010000
+26 collisions for digest 00000000000000000110100000000000
+1 collisions for digest 00111011101101000011101000010000
+3 collisions for digest 10000111010000100000011001010110
+1 collisions for digest 00000000111001101101001000000000
+3 collisions for digest 00000000000000011010110010100000
+43 collisions for digest 00000111010000000000000000000000
+10 collisions for digest 00001110101000000000000000000000
+2 collisions for digest 11000111010000000000011001010110
+1 collisions for digest 00101011100110000000001100101011
+1 collisions for digest 01100001011100000000000000000000
+5 collisions for digest 00000000000000100000011001000000
+1 collisions for digest 01101011100011000011100110110001
+1 collisions for digest 01101100100011011100110010101110
+8 collisions for digest 00000000001000000110100000000000
+19 collisions for digest 00000111010000000000000000000010
+2 collisions for digest 00000000111010001101001000000000
+1 collisions for digest 00100011011110101011101000110111
+21 collisions for digest 00000000001101111000000000000000
+10 collisions for digest 00000000110111001101001000000000
+2 collisions for digest 00000000110010101101001000000000
+3 collisions for digest 00000000000001001100000000000000
+1 collisions for digest 10001100101011011010000000001110
+1 collisions for digest 11110110011000100000011001000110
+4 collisions for digest 00011001000110111000000000000000
+2 collisions for digest 00000000000000011010000000000000
+4 collisions for digest 00000000110110001101001000000000
+5 collisions for digest 00101011100110000000000000000011
+7 collisions for digest 00000000000000101100000000000000
+6 collisions for digest 00000010000000101100000000000000
+1 collisions for digest 00001000000110111000000000011101
+21 collisions for digest 00000000000000000000000011000010
+23 collisions for digest 00000001110010000000000000000000
+7 collisions for digest 00000000000001000000110010100000
+7 collisions for digest 11110010000000000000000000000000
+1 collisions for digest 00000011100110110111101101000001
+6 collisions for digest 00000000000000000000000010000010
+5 collisions for digest 00001000000110111000000000000000
+10 collisions for digest 00000000000000000011001110000000
+1 collisions for digest 00011110010110110101110011001010
+2 collisions for digest 00100111010000000000000000000111
+5 collisions for digest 00000000000010111000000000000000
+2 collisions for digest 10000000100000000010100010000000
+3 collisions for digest 10010101110010000000000000000001
+1 collisions for digest 10100000110100101100001000000000
+3 collisions for digest 00000000000000001110100011000010
+1 collisions for digest 11000110110100111010001001011000
+1 collisions for digest 10110010000000000000000000000000
+1 collisions for digest 00001110100011011100100010100000
+1 collisions for digest 00001110011001000000110010100000
+1 collisions for digest 01000110101111100101101111011110
+1 collisions for digest 00000110000100100000011001000000
+1 collisions for digest 11110010000000000000000001011000
+2 collisions for digest 00001111001011011010000000000000
+1 collisions for digest 10000101010000000000011001010110
+1 collisions for digest 00101100001000011000100100100000
+2 collisions for digest 01110011011010010110100000100000
+4 collisions for digest 00000010000001101100000000000000
+1 collisions for digest 00001101100011011000110010100100
+2 collisions for digest 10000011010010111000000000000010
+4 collisions for digest 00000000000000000000001100011000
+1 collisions for digest 10000100010001010110010111001100
+10 collisions for digest 00000101010000000000000000000000
+2 collisions for digest 00001101111001000000110010100000
+3 collisions for digest 10100011100110000000000000000011
+1 collisions for digest 11000111010000000000000000000110
+3 collisions for digest 00000000000000001001001000000000
+4 collisions for digest 00000100000011100100110010100000
+5 collisions for digest 00000000011001010110100000000000
+4 collisions for digest 00001110101000000000000000000100
+1 collisions for digest 11010111010000000000000010100000
+2 collisions for digest 00000000000000000000000110001000
+4 collisions for digest 01110100001000000110100001101000
+3 collisions for digest 00000000000011100110110010100000
+1 collisions for digest 10111001010100010011110100001000
+1 collisions for digest 10100100001001111000000000100100
+2 collisions for digest 00000000000000001110110011000010
+2 collisions for digest 01010111010000100000011100100110
+1 collisions for digest 10000111010001110011011010010110
+1 collisions for digest 01101100011100000110000101100101
+4 collisions for digest 00000000011000010110100000000000
+1 collisions for digest 10011011001100001000100100000011
+5 collisions for digest 00111010101101111000000000000000
+8 collisions for digest 00000011100110000000000000000001
+1 collisions for digest 01101001011100000000000000000000
+2 collisions for digest 01010111010000000000000000000110
+1 collisions for digest 01000001101001011000110010100001
+1 collisions for digest 10101100101011011010000000001100
+1 collisions for digest 00011101000110111000000000000000
+3 collisions for digest 10000011010010111000100000000010
+3 collisions for digest 00000000000011101000110010100000
+2 collisions for digest 00000110000101101100000000000000
+1 collisions for digest 00100111010000000000011101010111
+1 collisions for digest 00000000011011110110100000000000
+1 collisions for digest 00001100001001000000110010100000
+3 collisions for digest 01110010011001010110100000000000
+4 collisions for digest 00000000000000000000010001000000
+1 collisions for digest 00000000000011001010110010100000
+1 collisions for digest 01110011011010010110100000000000
+1 collisions for digest 00000000000001000101010001000000
+1 collisions for digest 01110110011000010110100000000000
+4 collisions for digest 00000001010000011010010000000100
+1 collisions for digest 00000001010010000000000000000000
+1 collisions for digest 01100011100110000000000000000001
+1 collisions for digest 00001101001011110000100010100000
+1 collisions for digest 10111011100000000000000000110100
+1 collisions for digest 00000010100110000000000000000000
+1 collisions for digest 01110011100111100000101010110101
+1 collisions for digest 00000110110001101100000000000000
+2 collisions for digest 00000000100000000010100000000000
+2 collisions for digest 01010111010000000000011100100110
+1 collisions for digest 10000001100110000000010110100000
+1 collisions for digest 11011011000111011000001000001111
+11 collisions for digest 00000000000011011010000000000000
+1 collisions for digest 10011000100010110010111010001010
+2 collisions for digest 10000001110010000000000110001000
+1 collisions for digest 00000010111001101100000000000010
+1 collisions for digest 01110110111101101100001000000111
+2 collisions for digest 10000101010000000000000000000110
+1 collisions for digest 00000000000000000001100110000000
+2 collisions for digest 00000000001100101011001110000000
+2 collisions for digest 01000010000000101100011010000111
+1 collisions for digest 11110111010000000000000000000110
+3 collisions for digest 00000000000000000000100010100000
+2 collisions for digest 00000000000000000000000001000010
+1 collisions for digest 00000000000000001110011011000010
+2 collisions for digest 00000000000011100100110010100000
+1 collisions for digest 11001101110010000000000000000001
+9 collisions for digest 00000000011010010110100000000000
+1 collisions for digest 00000100111011011100110010100000
+1 collisions for digest 00000001010000011010000000000000
+1 collisions for digest 00101011100000000000000000000000
+1 collisions for digest 10101101111001000000110010101110
+1 collisions for digest 11011110010000100100000011000010
+1 collisions for digest 00000000000000000010001110000000
+2 collisions for digest 11110010000000000000000011011110
+1 collisions for digest 11010101100101000111000110111001
+1 collisions for digest 00110111001101111000000000000000
+1 collisions for digest 00000000000000110101100000000000
+1 collisions for digest 01110101011011110110100000000000
+2 collisions for digest 00001110100001000000110010100000
+1 collisions for digest 10010111010000000000000000000110
+1 collisions for digest 01101110101011011100110000101110
+1 collisions for digest 10111011001000111011111100010011
+2 collisions for digest 00000001101001011000110010100000
+2 collisions for digest 00011001010110111000000000000000
+1 collisions for digest 00000000000000011001010110001000
+3 collisions for digest 00000110010001101100000000000010
+1 collisions for digest 00010111010000000000000000000110
+1 collisions for digest 11011000000000000000000000000001
+1 collisions for digest 00000000001101000011001110000000
+2 collisions for digest 11110010000000001110101011011110
+1 collisions for digest 11001110110111001101001000000000
+1 collisions for digest 00000000000000000100000010000010
+2 collisions for digest 01011101100000000000000000011001
+1 collisions for digest 10110010000000000000000011011110
+1 collisions for digest 10101110100001000000111010001110
+1 collisions for digest 11001101111001000000110010101100
+1 collisions for digest 00000110100101101100000000000000
+2 collisions for digest 00011001000110111000000000001000
+1 collisions for digest 10100101110010000000000000000001
+1 collisions for digest 00100000011100000000000000000000
+1 collisions for digest 01101101001000000110100000000000
+1 collisions for digest 01110111010000100000011100110010
+3 collisions for digest 10000111010000000000011001010110
+1 collisions for digest 00001100101011011010000000000000
+1 collisions for digest 00001101001001000000110010100000
+1 collisions for digest 00110110101101111000000000000000
+1 collisions for digest 01010001010010000000000000000001
+1 collisions for digest 00001100101011110000100010100000
+2 collisions for digest 00000000000000000100100000000000
+1 collisions for digest 00110111110011010100010001010010
+1 collisions for digest 00000000000000110100001100011000
+1 collisions for digest 00000000000001011000110010100000
+1 collisions for digest 01011000110110111000000000011001
+1 collisions for digest 11011111001111100010000001101011
+1 collisions for digest 11000110010001101100000000000010
+1 collisions for digest 00000000000000001101001011000010
+1 collisions for digest 00011001110110111000000000000000
+1 collisions for digest 11000111010000000000001000000010
+1 collisions for digest 01001101100100101110111001000110
+1 collisions for digest 00001010101000000000000000000000
+1 collisions for digest 00001101110001000000110010100000
+1 collisions for digest 01011011010011101100110001010010
+1 collisions for digest 00000000001001111000000000000000
+1 collisions for digest 00000110010001101100000000000000
+1 collisions for digest 10000111010000000000001011000110
+2 collisions for digest 00000000011100000000000000000000
+1 collisions for digest 01101000001011100010000001101100
+1 collisions for digest 01000000111010001001001000000000
+1 collisions for digest 00000000000000000100000011000010
+2 collisions for digest 10000000011001100001011001010110
+1 collisions for digest 01001110101000000000000000001110
+1 collisions for digest 01000000000101000001101001000010
+1 collisions for digest 10010111000101010101010010001110
+1 collisions for digest 00010000110000111010000100000011
+1 collisions for digest 01010111010000000000000000000111
+1 collisions for digest 00001101100011001010110010100000
+1 collisions for digest 11011001110010000000000000000001
+1 collisions for digest 00000000000000110111101100011000
+1 collisions for digest 10001011001011010101010111100111
+1 collisions for digest 01100001011001010110100000000000
+1 collisions for digest 00000000110100101100000000000000
+1 collisions for digest 00000001011000110010101100011000
+1 collisions for digest 01101110101011011010110100001100
+1 collisions for digest 00000000000000001111001011000010
+1 collisions for digest 10010110100000100000011001000110
+1 collisions for digest 00111011100000000000000000000000
+1 collisions for digest 00000000001110101011001110000000
+Total collisions: 3011 (there were 6989 unique hashes)
+[1m[3m%[23m[1m[0m                                                                                                                       ]7;file://Carters-MacBook-Pro-7.local/Users/carterengberg/Hash/hashlab/src[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [K[?2004h./HashStats.py -i shak/shak.origalt -a -c shak.alt.csv[50Dpip ins[2Cll numpy                                 [33D[17D./HashS[2Cts.py -i shak/shak.alt -a -c shak.alt.csv[22Dorig                  [18D[30DMakeHashes.sh                 [17D[15Dmake clean && make runner[25D./MakeHashes.sh          [10D[15Dls             [13D./smhasher StudentHash[22Dssh umdacs12@10.172.1.193[25Dlogout                   [19Dnano Hashes.cpp[15Dls             [13Dcd srcls    cd Hash/hashlab[15Dpip install --upgrade pip[13Dpoker        [8D[17Dgit clone https://github.umn.edu/UMDLARS/hashlab.git[52Dcd Hash                                             [45Dmkdir Hash[10Dls        [8Dssh umdacs12@10.172.1.193[25D/Users/carterengberg/Downloads/ghidra_11.2.1_PUBLIC/ghidraRun ; exit;[69D./main.py                                                            [60D[9Dchmod 755 ./main.py[19D-u[7P[10C       [12D[3P[9C    -d -i ./encrypted/encryptedImage.png[19D[10P[9C          [10D[25Da                        [24D -i ./small.jpg -i ./encrypted/encryptedImage.png[50De[2Cm[3Cmessages/text.txt -i ./images/small.jpg    [57D[P[56C [56D[P[55C [55D./main.py -e -m ./messages/text.txt -i ./images/small.jpg[57Dpip3 install pillow                                      [38D[16D2[15C[16D3[11Cp3  --upgrade pip3[27D./main.py -e[2Cm ./messages/text.txt -i ./images/small.jpg[57Dpip [2Cstall pillow                                       [39D[18D./ma[2C.py -e -m ./messages/text.txt -i ./images/small.jpg[57Dpip [2Cstall --upgrade pip                                [32D[25D./ma[2C.py -e -m ./messages/text.txt -i ./images/small.jpg[57Dpip [2Cstall --upgrade pip                                [32Do[1C[13Dpillow       [18D./ma[2C.py -e -m ./messages/text.txt -i ./images/small.jpg[57D/Users/carterengberg/Downloads/ghidra_11.2.1_PUBLIC/ghidraRun ; exit;[69Dpython main.py -a                                                    [52Ddeqdqeda[17D/Users/carterengberg/Downloads/ghidra_11.2.1_PUBLIC/ghidraRun ; exit;[69D./main.py -e -m ./messages/text.txt -i ./images/small.jpg            [12D[57Dpip [2Cstall pillow                                       [39D--upgrade popi[1C[25D./ma[2C.py -e -m ./messages/text.txt -i ./images/small.jpg[57Dpip [2Cstall --upgrade pip                                [32D[25D./ma[2C.py -e -m ./messages/text.txt -i ./images/small.jpg[57Dpip [2Cstall pillow                                       [39D[18D./ma[2C.py -e -m ./messages/text.txt -i ./images/small.jpg[57Dpip3 install[2C-upgrade pip3                              [30D[14Dpip3          [10D[14D2[11Cllow[16D3[15C[19D./main.py -e -m ./messages/text.txt -i ./images/small.jpg[57D[P[P[55C  [55D/main.py -e -m ./messages/text.txt -i ./images/small.jpg[56D./main.py -e -m ./messages/text.txt -i ./images/small.jpg[46Da[2Ci[3C[30P[9C -i ./encrypted/encryptedImage.png[48D                                                [49Dd -i ./encryptedImage.png[9D/encryptedImage.png[36D                                    [37D[9D-u ./main.py[12Dchmod 755 ./main.py[19D[10P[9C          [10D[9D/Users/carterengberg/Downloads/ghidra_11.2.1_PUBLIC/ghidraRun ; exit;[69Dssh umdacs12@10.172.1.193                                            [44D[25Dls                       [23Dmkdir Hash[10Dcd Hash   git clone https://github.umn.edu/UMDLARS/hashlab.git[52Dpip install poker                                   [35D--upgrade pip[25Dcd Hash/hashlab          [10D[15Dls             [13Dcd srcls    nano Hashes.cpp[15Dlogout         [9Dssh umdacs12@10.172.1.193[25D./smhasher StudentHash   [22Dls                    [20D./MakeHashes.sh[15Dmake clean && make runner[25D./MakeHashes.sh          [10D[13DHashStats.py -i shak/shak.origalt -a -c shak.alt.csv[50Dpip ins[2Cll numpy                                 [33D[17D./HashS[2Cts.py -i shak/shak.alt -a -c shak.alt.csv[22Dorig                  [18D[32D                                [32D!!n[?2004l
+nano Hashes.cpp
+[?1049h[1;66r[1;1H[J[3m  UW PICO 5.09                                              New Buffer                                                 [23m[65;1H[K[66;1H[K[65;1H[3m^[23m[3mG[23m Get Help        [3m^[23m[3mO[23m WriteOut        [3m^[23m[3mR[23m Read File       [3m^[23m[3mY[23m Prev Pg         [3m^[23m[3mK[23m Cut Text        [3m^[23m[3mC[23m Cur Pos         [K[66;1H[3m^[23m[3mX[23m Exit            [3m^[23m[3mJ[23m Justify         [3m^[23m[3mW[23m Where is        [3m^[23m[3mV[23m Next Pg         [3m^[23m[3mU[23m UnCut Text      [3m^[23m[3mT[23m To Spell        [K[3;1H[64;1H                                                                                                                       [64;52H[3m[ Reading file ][23m[64;1H                                                                                                                       [64;51H[3m[ Read 214 lines ][23m[1;1H[J[3m  UW PICO 5.09                                           File: Hashes.cpp                                              [23m[3;1H#include "Hashes.h"[5;1H#include "Random.h"[7;1H#include <stdio.h>[8;1H#include <stdlib.h>[9;1H//#include <stdint.h>[10;1H#include <assert.h>[11;1H//#include <emmintrin.h>[12;1H//#include <xmmintrin.h>[15;1H//best hash in the whole world[16;1Hvoid StudentHash(const void * key, int len, uint32_t seed, void * out) {[18;9H#define LOG 0 // set to 1 to print logs -- 0 to disable[19;9Huint32_t digest = 0xdeadbeef; // initialization vector (initial value) for hash[21;5H//some initialization stuff (some is usually done in preprocessor, but this is for smhasher)[23;9H// data is an array of the bytes to be hashed in case you want it[24;5Hconst uint8_t* data = (const uint8_t*) key;[26;9H// u32data is the data bytes but in an array of unsigned 32-bit values,[27;9H// i.e., it allows you to access four bytes at a time instead of one by one[28;9Hconst uint32_t* u32data = (const uint32_t*) key;[30;5Hint CHUNK_SIZE = 4;[31;9Hunsigned int idx = 0; // what chunk are we on?[33;9H// for every chunk of four bytes, XOR each chunk on top of the previous digest[34;9Hwhile (idx < (len / CHUNK_SIZE))[35;9H{[36;17H// print idx and current values to stdout as hexadecimal[37;17H// WARNING: printing to stdout is SLOW![38;9H//      if (LOG) { printf("digest: %08x - idx %u - %08x (printing is slow!)\n", digest, idx, u32data[idx]); }[40;17H/****************************************************[41;18H* COMBINE step -- combine input with current state *[42;18H***************************************************/[43;17H// XOR current digest with current chunk of u32data[idx][44;17Hdigest = digest ^ u32data[idx];[46;17H/**********************************************************[47;18H* MIX step -- randomize the state somehow (e.g., rotate) *[48;18H*********************************************************/[50;17H// Variable that is set to the amount of rotation we want to do[51;17Huint32_t rotation_amount = u32data[idx] % 32;[53;17H// Rotate the digest left by the rotation amount[54;17Hdigest = (digest << rotation_amount) ^ (digest >> (32 - rotation_amount));[57;17H/*****************************[58;18H* PREPARE for next chunk... *[59;18H****************************/[60;17Hidx = idx + 1; // increment idx for next chunk[61;9H}[63;9H// smhasher pads data with zeros to multiples of 32-bits,[65;1H[K[66;1H[K[65;1H[3m^[23m[3mG[23m Get Help        [3m^[23m[3mO[23m WriteOut        [3m^[23m[3mR[23m Read File       [3m^[23m[3mY[23m Prev Pg         [3m^[23m[3mK[23m Cut Text        [3m^[23m[3mC[23m Cur Pos         [K[66;1H[3m^[23m[3mX[23m Exit            [3m^[23m[3mJ[23m Justify         [3m^[23m[3mW[23m Where is        [3m^[23m[3mV[23m Next Pg         [3m^[23m[3mU[23m UnCut Text      [3m^[23m[3mT[23m To Spell        [K[3;1H[4;1H[5;1H[6;1H[7;1H[8;1H[9;1H[10;1H[11;1H[12;1H[13;1H[14;1H[15;1H[16;1H[17;1H[18;1H[19;1H[20;1H[21;1H[22;1H[23;1H[24;1H[25;1H[26;1H[27;1H[28;1H[29;1H[30;1H[31;1H[32;1H[33;1H[34;1H[35;1H[36;1H[37;1H[38;1H[39;1H[40;1H[41;1H[42;1H[43;1H[44;1H[45;1H[46;1H[47;1H[48;1H[49;1H[50;1H[51;1H[52;1H[53;1H[54;1H[55;1H[56;1H[57;1H[58;1H[59;1H[60;1H[61;1H[62;1H[63;1H[3;1H        while (idx < (len / CHUNK_SIZE))[4;9H{[5;1H                // print idx and current values to stdout as hexadecimal[6;17H// WARNING: printing to stdout is SLOW![7;1H        //      if (LOG) { printf("digest: %08x - idx %u - %08x (printing is slow!)\n", digest, idx, u32data[idx]); }[8;1H[K[9;1H                /****************************************************[10;1H                 * COMBINE step -- combine input with current state *[11;1H                 ***************************************************/[12;1H                // XOR current digest with current chunk of u32data[idx][13;17Hdigest = digest ^ u32data[idx];[15;1H                /**********************************************************[16;1H                 * MIX step -- randomize the state somehow (e.g., rotate) *[17;18H*********************************************************/[18;9H[K[19;9H        // Variable that is set to the amount of rotation we want to do[K[20;17Huint32_t rotation_amount = u32data[idx] % 32;[21;5H[K[22;17H// Rotate the digest left by the rotation amount[23;9H        digest = (digest << rotation_amount) ^ (digest >> (32 - rotation_amount));[24;5H[K[26;9H        /*****************************[K[27;9H         * PREPARE for next chunk... *[K[28;9H         ****************************/[K[29;17Hidx = idx + 1; // increment idx for next chunk[30;5H    }[K[31;9H[K[32;9H// smhasher pads data with zeros to multiples of 32-bits,[33;12Hso we know that the input will always end on a chunk[K[34;9H// (i.e., there won't be any straggler bytes).[35;9H// ... this means we're done![36;17H[K[37;17H[K[38;5H*(uint32_t*)out = digest;[K[40;1H}[K[41;18H[K[42;1H//----------------------------------------------------------------------------[43;1H// fake / bad hashes[K[44;17H[K[45;1Hvoid BadHash ( const void * key, int len, uint32_t seed, void * out )[46;1H{[K[47;3Huint32_t h = seed;[K[48;18H[K[49;3Hconst uint8_t * data = (const uint8_t*)key;[50;17H[K[51;3Hfor(int i = 0; i < len; i++)[K[52;3H{[53;5Hh ^= h >> 3;[K[54;5Hh ^= h << 5;[K[55;5Hh ^= data[i];[56;3H}[57;17H[K[58;3H*(uint32_t*)out = h;[K[59;1H}[K[60;17H[K[61;1Hvoid sumhash ( const void * key, int len, uint32_t seed, void * out )[62;1H{[63;3Huint32_t h = seed;[K[33;1H[34;1H[35;1H[36;1H[37;1H[38;1H[39;1H[40;1H[41;1H[40;1H[39;1H[38;1H[37;1H[36;1H[35;1H[34;1H[33;1H[32;1H[31;1H[30;1H[29;1H[28;1H[27;1H[26;1H[25;1H[24;1H[23;1H[22;1H[21;1H[20;1H[19;1H[18;1H[17;1H[16;1H[15;1H[14;1H[13;1H[12;1H[11;1H[10;1H[9;1H[8;1H[7;1H[6;1H[5;1H[4;1H[3;1H#include "Hashes.h"[K[4;9H [5;1H#include "Random.h"[K[6;17H[K[7;1H#include <stdio.h>[K[8;1H#include <stdlib.h>[9;1H//#include <stdint.h>[K[10;1H#include <assert.h>[K[11;1H//#include <emmintrin.h>[K[12;1H//#include <xmmintrin.h>[K[13;17H[K[15;1H//best hash in the whole world[K[16;1Hvoid StudentHash(const void * key, int len, uint32_t seed, void * out) {   [17;18H[K[18;9H#define LOG 0 // set to 1 to print logs -- 0 to disable[19;9Huint32_t digest = 0xdeadbeef; // initialization vector (initial value) for hash[20;17H[K[21;5H//some initialization stuff (some is usually done in preprocessor, but this is for smhasher)[22;17H[K[23;9H// data is an array of the bytes to be hashed in case you want it[K[24;5Hconst uint8_t* data = (const uint8_t*) key;[26;9H// u32data is the data bytes but in an array of unsigned 32-bit values,[27;9H// i.e., it allows you to access four bytes at a time instead of one by one[28;9Hconst uint32_t* u32data = (const uint32_t*) key;[29;17H[K[30;5Hint CHUNK_SIZE = 4;[31;9Hunsigned int idx = 0; // what chunk are we on?[32;9H[K[33;12Hfor every chunk of four bytes, XOR each chunk on top of the previous digest[34;9Hwhile (idx < (len / CHUNK_SIZE))[K[35;9H{[K[36;17H// print idx and current values to stdout as hexadecimal[37;17H// WARNING: printing to stdout is SLOW![38;5H    //      if (LOG) { printf("digest: %08x - idx %u - %08x (printing is slow!)\n", digest, idx, u32data[idx]); }[40;1H                /****************************************************[41;18H* COMBINE step -- combine input with current state *[42;1H                 ***************************************************/[K[43;1H                // XOR current digest with current chunk of u32data[idx][44;17Hdigest = digest ^ u32data[idx];[45;1H[K[46;1H                /**********************************************************[47;3H               * MIX step -- randomize the state somehow (e.g., rotate) *[48;18H*********************************************************/[49;3H[K[50;17H// Variable that is set to the amount of rotation we want to do[51;3H              uint32_t rotation_amount = u32data[idx] % 32;[52;3H [53;5H            // Rotate the digest left by the rotation amount[54;5H            digest = (digest << rotation_amount) ^ (digest >> (32 - rotation_amount));[55;5H[K[56;3H [57;17H/*****************************[58;3H               * PREPARE for next chunk... *[59;1H                 ****************************/[60;17Hidx = idx + 1; // increment idx for next chunk[61;1H        }[K[62;1H [63;3H      // smhasher pads data with zeros to multiples of 32-bits,[33;1H[32;1H[31;1H[30;1H[29;1H[28;1H[27;1H[26;1H[25;1H[24;1H[23;1H[22;1H[21;1H[20;1H[19;1H[18;1H[17;1H[16;1H[15;1H[14;1H[15;1H[16;1H[17;1H[18;1H[19;1H[20;1H[21;1H[22;1H[23;1H[24;1H[25;1H[26;1H[27;1H[28;1H[29;1H[30;1H[31;1H[32;1H[33;1H[34;1H[35;1H[36;1H[37;1H[38;1H[39;1H[40;1H[41;1H[42;1H[43;1H[44;1H[45;1H[46;1H[47;1H[48;1H[49;1H[50;1H[51;1H[52;1H[53;1H[54;1H[53;1H[52;1H[51;62H[51;61H[1;54H[3mFile: Hashes.cpp                                        Modified[23m[51;60H; [51;60H[51;59H; [51;59H2;[51;60H5;[51;61H6;[51;62H[52;1H[53;62H[54;62H[54;63H[54;64H[54;65H[54;66H[54;67H[54;68H[54;69H[54;70H[54;69H[P[54;69H[54;68H[P[54;68H[4h2[4l[54;69H[4h5[4l[54;70H[4h6[4l[54;71H[65;1H                   [3mY[23m Yes                                                                                          [K[66;2H[3mC[23m Cancel          [3mN[23m No                                                                                           [K[64;1H                                                                                                                       [64;1H[3mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                           [64;62H[23m[3mYes[23m[64;1H                                                                                                                       [64;1H[3mFile Name to write :                                                                                                   [64;22H[23m[65;1H[3m^[23m[3mG[23m Get Help        [3m^[23m[3mT[23m  To Files                                                                                   [K[66;20H[3mT[23m[3mA[23m[3mB[23m Complete                                                                                   [K[3m[64;22HHashes.cpp                                                                                        [64;32H[23m[64;1H                                                                                                                       [64;53H[3m[ Writing... ][23m[64;1H                                                                                                                       [64;51H[3m[ Wrote 214 lines ][23m[65;1H[K[66;1H[K[?1049l[1m[3m%[23m[1m[0m                                                                                                                       ]7;file://Carters-MacBook-Pro-7.local/Users/carterengberg/Hash/hashlab/src[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [K[?2004hnano Hashes.cpp[15D./HashStat[2Cpy -i shak/shak.origalt -a -c shak.alt.csv[50Dpip ins[2Cll numpy                                 [33D[17D./HashS[2Cts.py -i shak/shak.alt -a -c shak.alt.csv[22Dorig                  [18D[30DMakeHashes.sh                 [17D[15Dmake clean && make runner[25D./MakeHashes.sh          [10D[15Dmake clean && make runner[?2004l
+rm -rf *.o smhasher runner
+g++  StudentHashRunner.c Hashes.cpp -o runner
+^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[Bclang: [0;1;35mwarning: [0m[1mtreating 'c' input as 'c++' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B[1m[3m%[23m[1m[0m                                                                                                                       ]7;file://Carters-MacBook-Pro-7.local/Users/carterengberg/Hash/hashlab/src[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [K[?2004hmake clean && make runner[25Dnano Hashes.cpp          [10D[15D./HashStat[2Cpy -i shak/shak.origalt -a -c shak.alt.csv[50Dpip ins[2Cll numpy                                 [33D[17D./HashS[2Cts.py -i shak/shak.alt -a -c shak.alt.csv[22Dorig                  [18D[30DMakeHashes.sh                 [17D[15Dmake clean && make runner[25D./MakeHashes.sh          [10D[?2004l
+Creating a/a.orig...
+Creating a/a.mod...
+Creating a/mod.alt (alternating)
+Creating ones/ones.orig...
+Creating ones/ones.mod...
+Creating ones/mod.alt (alternating)
+Creating shak/shak.orig...
+Creating shak/shak.mod...
+Creating shak/mod.alt (alternating)
+Creating zero/zero.orig...
+Creating zero/zero.mod...
+Creating zero/mod.alt (alternating)
+Creating random/random.orig...
+Creating random/random.mod...
+Creating random/mod.alt (alternating)
+[1m[3m%[23m[1m[0m                                                                                                                       ]7;file://Carters-MacBook-Pro-7.local/Users/carterengberg/Hash/hashlab/src[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [K[?2004h./MakeHashes.sh[15Dmake clean && make runner[25Dnano Hashes.cpp          [10D[15D./HashStat[2Cpy -i shak/shak.orig[?2004l
+/Users/carterengberg/Hash/hashlab/src/./HashStats.py:70: SyntaxWarning: invalid escape sequence '\s'
+  p = re.compile("^([0-9a-f]+)\s+[\w/]+/(\d+)$")
+There were 10000 32-bit hashes, and 6989 unique digests.
+All below ratios should be near 0.5!
+Avg. ratio of 1/0s per digest: 0.4767 row ones stdev: 0.1069
+Avg. ratio of 1/0s per column: 0.4767 column ones stdev: 0.0139
+Column ratios sorted:
+[0.4748891114608671, 0.47202747174130777, 0.4790384890542281, 0.483617112605523, 0.48833881814279584, 0.487623408212906, 0.5005007869509229, 0.49806839318929746, 0.49105737587637716, 0.48833881814279584, 0.475175275432823, 0.47660609529260267, 0.47989698097009587, 0.4827586206896552, 0.4851910144512806, 0.4897696380025755, 0.5062240663900415, 0.4788954070682501, 0.4570038632136214, 0.4611532408069824, 0.46802117613392474, 0.4788954070682501, 0.46587494634425525, 0.4521390756903706, 0.4857633423951924, 0.47073973386750606, 0.45442838746601805, 0.4657318643582773, 0.4597224209472027, 0.4591500930032909, 0.4851910144512806, 0.4541422234940621]
+Collisions (blank if none):
+2257 collisions for digest 00000000000000000000000000000000
+16 collisions for digest 00000000000110111000000000000000
+4 collisions for digest 00010000001101111000000000000000
+24 collisions for digest 00000011100110000000000000000000
+17 collisions for digest 00000000000000000000011001000000
+11 collisions for digest 10000001110010000000000000000000
+47 collisions for digest 00000000000000000000110010100000
+25 collisions for digest 00000000000000001101001000000000
+1 collisions for digest 00001111001011011010000000000100
+19 collisions for digest 00000000000001101100000000000000
+1 collisions for digest 01000011100101101000001110100011
+1 collisions for digest 00000000000000011001010100001000
+3 collisions for digest 00000000000000001101110010000010
+5 collisions for digest 00000000000011011100110010100000
+13 collisions for digest 10000111010000000000000000000110
+1 collisions for digest 00111011100000000000000000010000
+26 collisions for digest 00000000000000000110100000000000
+1 collisions for digest 00111011101101000011101000010000
+3 collisions for digest 10000111010000100000011001010110
+1 collisions for digest 00000000111001101101001000000000
+3 collisions for digest 00000000000000011010110010100000
+43 collisions for digest 00000111010000000000000000000000
+10 collisions for digest 00001110101000000000000000000000
+2 collisions for digest 11000111010000000000011001010110
+1 collisions for digest 00101011100110000000001100101011
+1 collisions for digest 01100001011100000000000000000000
+5 collisions for digest 00000000000000100000011001000000
+1 collisions for digest 01101011100011000011100110110001
+1 collisions for digest 01101100100011011100110010101110
+8 collisions for digest 00000000001000000110100000000000
+19 collisions for digest 00000111010000000000000000000010
+2 collisions for digest 00000000111010001101001000000000
+1 collisions for digest 00100011011110101011101000110111
+21 collisions for digest 00000000001101111000000000000000
+10 collisions for digest 00000000110111001101001000000000
+2 collisions for digest 00000000110010101101001000000000
+3 collisions for digest 00000000000001001100000000000000
+1 collisions for digest 10001100101011011010000000001110
+1 collisions for digest 11110110011000100000011001000110
+4 collisions for digest 00011001000110111000000000000000
+2 collisions for digest 00000000000000011010000000000000
+4 collisions for digest 00000000110110001101001000000000
+5 collisions for digest 00101011100110000000000000000011
+7 collisions for digest 00000000000000101100000000000000
+6 collisions for digest 00000010000000101100000000000000
+1 collisions for digest 00001000000110111000000000011101
+21 collisions for digest 00000000000000000000000011000010
+23 collisions for digest 00000001110010000000000000000000
+7 collisions for digest 00000000000001000000110010100000
+7 collisions for digest 11110010000000000000000000000000
+1 collisions for digest 00000011100110110111101101000001
+6 collisions for digest 00000000000000000000000010000010
+5 collisions for digest 00001000000110111000000000000000
+10 collisions for digest 00000000000000000011001110000000
+1 collisions for digest 00011110010110110101110011001010
+2 collisions for digest 00100111010000000000000000000111
+5 collisions for digest 00000000000010111000000000000000
+2 collisions for digest 10000000100000000010100010000000
+3 collisions for digest 10010101110010000000000000000001
+1 collisions for digest 10100000110100101100001000000000
+3 collisions for digest 00000000000000001110100011000010
+1 collisions for digest 11000110110100111010001001011000
+1 collisions for digest 10110010000000000000000000000000
+1 collisions for digest 00001110100011011100100010100000
+1 collisions for digest 00001110011001000000110010100000
+1 collisions for digest 01000110101111100101101111011110
+1 collisions for digest 00000110000100100000011001000000
+1 collisions for digest 11110010000000000000000001011000
+2 collisions for digest 00001111001011011010000000000000
+1 collisions for digest 10000101010000000000011001010110
+1 collisions for digest 00101100001000011000100100100000
+2 collisions for digest 01110011011010010110100000100000
+4 collisions for digest 00000010000001101100000000000000
+1 collisions for digest 00001101100011011000110010100100
+2 collisions for digest 10000011010010111000000000000010
+4 collisions for digest 00000000000000000000001100011000
+1 collisions for digest 10000100010001010110010111001100
+10 collisions for digest 00000101010000000000000000000000
+2 collisions for digest 00001101111001000000110010100000
+3 collisions for digest 10100011100110000000000000000011
+1 collisions for digest 11000111010000000000000000000110
+3 collisions for digest 00000000000000001001001000000000
+4 collisions for digest 00000100000011100100110010100000
+5 collisions for digest 00000000011001010110100000000000
+4 collisions for digest 00001110101000000000000000000100
+1 collisions for digest 11010111010000000000000010100000
+2 collisions for digest 00000000000000000000000110001000
+4 collisions for digest 01110100001000000110100001101000
+3 collisions for digest 00000000000011100110110010100000
+1 collisions for digest 10111001010100010011110100001000
+1 collisions for digest 10100100001001111000000000100100
+2 collisions for digest 00000000000000001110110011000010
+2 collisions for digest 01010111010000100000011100100110
+1 collisions for digest 10000111010001110011011010010110
+1 collisions for digest 01101100011100000110000101100101
+4 collisions for digest 00000000011000010110100000000000
+1 collisions for digest 10011011001100001000100100000011
+5 collisions for digest 00111010101101111000000000000000
+8 collisions for digest 00000011100110000000000000000001
+1 collisions for digest 01101001011100000000000000000000
+2 collisions for digest 01010111010000000000000000000110
+1 collisions for digest 01000001101001011000110010100001
+1 collisions for digest 10101100101011011010000000001100
+1 collisions for digest 00011101000110111000000000000000
+3 collisions for digest 10000011010010111000100000000010
+3 collisions for digest 00000000000011101000110010100000
+2 collisions for digest 00000110000101101100000000000000
+1 collisions for digest 00100111010000000000011101010111
+1 collisions for digest 00000000011011110110100000000000
+1 collisions for digest 00001100001001000000110010100000
+3 collisions for digest 01110010011001010110100000000000
+4 collisions for digest 00000000000000000000010001000000
+1 collisions for digest 00000000000011001010110010100000
+1 collisions for digest 01110011011010010110100000000000
+1 collisions for digest 00000000000001000101010001000000
+1 collisions for digest 01110110011000010110100000000000
+4 collisions for digest 00000001010000011010010000000100
+1 collisions for digest 00000001010010000000000000000000
+1 collisions for digest 01100011100110000000000000000001
+1 collisions for digest 00001101001011110000100010100000
+1 collisions for digest 10111011100000000000000000110100
+1 collisions for digest 00000010100110000000000000000000
+1 collisions for digest 01110011100111100000101010110101
+1 collisions for digest 00000110110001101100000000000000
+2 collisions for digest 00000000100000000010100000000000
+2 collisions for digest 01010111010000000000011100100110
+1 collisions for digest 10000001100110000000010110100000
+1 collisions for digest 11011011000111011000001000001111
+11 collisions for digest 00000000000011011010000000000000
+1 collisions for digest 10011000100010110010111010001010
+2 collisions for digest 10000001110010000000000110001000
+1 collisions for digest 00000010111001101100000000000010
+1 collisions for digest 01110110111101101100001000000111
+2 collisions for digest 10000101010000000000000000000110
+1 collisions for digest 00000000000000000001100110000000
+2 collisions for digest 00000000001100101011001110000000
+2 collisions for digest 01000010000000101100011010000111
+1 collisions for digest 11110111010000000000000000000110
+3 collisions for digest 00000000000000000000100010100000
+2 collisions for digest 00000000000000000000000001000010
+1 collisions for digest 00000000000000001110011011000010
+2 collisions for digest 00000000000011100100110010100000
+1 collisions for digest 11001101110010000000000000000001
+9 collisions for digest 00000000011010010110100000000000
+1 collisions for digest 00000100111011011100110010100000
+1 collisions for digest 00000001010000011010000000000000
+1 collisions for digest 00101011100000000000000000000000
+1 collisions for digest 10101101111001000000110010101110
+1 collisions for digest 11011110010000100100000011000010
+1 collisions for digest 00000000000000000010001110000000
+2 collisions for digest 11110010000000000000000011011110
+1 collisions for digest 11010101100101000111000110111001
+1 collisions for digest 00110111001101111000000000000000
+1 collisions for digest 00000000000000110101100000000000
+1 collisions for digest 01110101011011110110100000000000
+2 collisions for digest 00001110100001000000110010100000
+1 collisions for digest 10010111010000000000000000000110
+1 collisions for digest 01101110101011011100110000101110
+1 collisions for digest 10111011001000111011111100010011
+2 collisions for digest 00000001101001011000110010100000
+2 collisions for digest 00011001010110111000000000000000
+1 collisions for digest 00000000000000011001010110001000
+3 collisions for digest 00000110010001101100000000000010
+1 collisions for digest 00010111010000000000000000000110
+1 collisions for digest 11011000000000000000000000000001
+1 collisions for digest 00000000001101000011001110000000
+2 collisions for digest 11110010000000001110101011011110
+1 collisions for digest 11001110110111001101001000000000
+1 collisions for digest 00000000000000000100000010000010
+2 collisions for digest 01011101100000000000000000011001
+1 collisions for digest 10110010000000000000000011011110
+1 collisions for digest 10101110100001000000111010001110
+1 collisions for digest 11001101111001000000110010101100
+1 collisions for digest 00000110100101101100000000000000
+2 collisions for digest 00011001000110111000000000001000
+1 collisions for digest 10100101110010000000000000000001
+1 collisions for digest 00100000011100000000000000000000
+1 collisions for digest 01101101001000000110100000000000
+1 collisions for digest 01110111010000100000011100110010
+3 collisions for digest 10000111010000000000011001010110
+1 collisions for digest 00001100101011011010000000000000
+1 collisions for digest 00001101001001000000110010100000
+1 collisions for digest 00110110101101111000000000000000
+1 collisions for digest 01010001010010000000000000000001
+1 collisions for digest 00001100101011110000100010100000
+2 collisions for digest 00000000000000000100100000000000
+1 collisions for digest 00110111110011010100010001010010
+1 collisions for digest 00000000000000110100001100011000
+1 collisions for digest 00000000000001011000110010100000
+1 collisions for digest 01011000110110111000000000011001
+1 collisions for digest 11011111001111100010000001101011
+1 collisions for digest 11000110010001101100000000000010
+1 collisions for digest 00000000000000001101001011000010
+1 collisions for digest 00011001110110111000000000000000
+1 collisions for digest 11000111010000000000001000000010
+1 collisions for digest 01001101100100101110111001000110
+1 collisions for digest 00001010101000000000000000000000
+1 collisions for digest 00001101110001000000110010100000
+1 collisions for digest 01011011010011101100110001010010
+1 collisions for digest 00000000001001111000000000000000
+1 collisions for digest 00000110010001101100000000000000
+1 collisions for digest 10000111010000000000001011000110
+2 collisions for digest 00000000011100000000000000000000
+1 collisions for digest 01101000001011100010000001101100
+1 collisions for digest 01000000111010001001001000000000
+1 collisions for digest 00000000000000000100000011000010
+2 collisions for digest 10000000011001100001011001010110
+1 collisions for digest 01001110101000000000000000001110
+1 collisions for digest 01000000000101000001101001000010
+1 collisions for digest 10010111000101010101010010001110
+1 collisions for digest 00010000110000111010000100000011
+1 collisions for digest 01010111010000000000000000000111
+1 collisions for digest 00001101100011001010110010100000
+1 collisions for digest 11011001110010000000000000000001
+1 collisions for digest 00000000000000110111101100011000
+1 collisions for digest 10001011001011010101010111100111
+1 collisions for digest 01100001011001010110100000000000
+1 collisions for digest 00000000110100101100000000000000
+1 collisions for digest 00000001011000110010101100011000
+1 collisions for digest 01101110101011011010110100001100
+1 collisions for digest 00000000000000001111001011000010
+1 collisions for digest 10010110100000100000011001000110
+1 collisions for digest 00111011100000000000000000000000
+1 collisions for digest 00000000001110101011001110000000
+Total collisions: 3011 (there were 6989 unique hashes)
+[1m[3m%[23m[1m[0m                                                                                                                       ]7;file://Carters-MacBook-Pro-7.local/Users/carterengberg/Hash/hashlab/src[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [K[?2004h./HashStats.py -i shak/shak.orig[30DMakeHashes.sh                 [17D[15Dmake clean && make runner[25Dnano Hashes.cpp          [10D[15D./HashStat[2Cpy -i shak/shak.origalt -a -c shak.alt.csv[50Dpip ins[2Cll numpy                                 [33D[17D./HashS[2Cts.py -i shak/shak.alt -a -c shak.alt.csv[22Dorig                  [18D[30DMakeHashes.sh                 [17D[15Dmake clean && make runner[25D./MakeHashes.sh          [10D[15Dls             [13D./smhasher StudentHash[22Dssh umdacs12@10.172.1.193[25Dlogout                   [19Dnano Hashes.cpp[15Dls             [13Dcd srcls    cd Hash/hashlab[15Dpip install --upgrade pip[13Dpoker        [8D[17Dgit clone https://github.umn.edu/UMDLARS/hashlab.git[52Dcd Hash                                             [45Dmkdir Hash[10Dls        [8Dssh umdacs12@10.172.1.193[25D/Users/carterengberg/Downloads/ghidra_11.2.1_PUBLIC/ghidraRun ; exit;[69D./main.py                                                            [60D[9Dchmod 755 ./main.py[19D-u[7P[10C       [12D[3P[9C    -d -i ./encrypted/encryptedImage.png[19D[10P[9C          [10D[25Da                        [24D -i ./small.jpg -i ./encrypted/encryptedImage.png[50De[2Cm[3Cmessages/text.txt -i ./images/small.jpg    [57D[P[56C [56D[P[55C [55D./main.py -e -m ./messages/text.txt -i ./images/small.jpg[57Dpip3 install pillow                                      [38D[16D2[15C[16D3[11Cp3  --upgrade pip3[27D./main.py -e[2Cm ./messages/text.txt -i ./images/small.jpg[57Dpip [2Cstall pillow                                       [39D[18D./ma[2C.py -e -m ./messages/text.txt -i ./images/small.jpg[57Dpip [2Cstall --upgrade pip                                [32D[25D./ma[2C.py -e -m ./messages/text.txt -i ./images/small.jpg[57Dpip [2Cstall --upgrade pip                                [32D[25D./ma[2C.py -e -m ./messages/text.txt -i ./images/small.jpg[57Dpip [2Cstall pillow                                       [39D[18D./ma[2C.py -e -m ./messages/text.txt -i ./images/small.jpg[57Dpip [2Cstall pillow                                       [39D[18D./ma[2C.py -e -m ./messages/text.txt -i ./images/small.jpg[57Dpip [2Cstall --upgrade pip                                [32D[25D./ma[2C.py -e -m ./messages/text.txt -i ./images/small.jpg[57Dpip [2Cstall --upgrade pip                                [32Do[1C[13Dpillow       [18D./ma[2C.py -e -m ./messages/text.txt -i ./images/small.jpg[57D/Users/carterengberg/Downloads/ghidra_11.2.1_PUBLIC/ghidraRun ; exit;[69Dpython main.py -a                                                    [52Ddedada[17D/Users/carterengberg/Downloads/ghidra_11.2.1_PUBLIC/ghidraRun ; exit;[69D./main.py -e -m ./messages/text.txt -i ./images/small.jpg            [12D[57Dpip [2Cstall pillow                                       [39D--upgrade popi[1C[25D./ma[2C.py -e -m ./messages/text.txt -i ./images/small.jpg[57Dpip [2Cstall --upgrade pip                                [32D[25D./ma[2C.py -e -m ./messages/text.txt -i ./images/small.jpg[57Dpip [2Cstall pillow                                       [39D[18D./ma[2C.py -e -m ./messages/text.txt -i ./images/small.jpg[57Dpip3 install[2C-upgrade pip3                              [30D[14Dpip3          [10D[14D2[11Cllow[16D3[15C[19D./main.py -e -m ./messages/text.txt -i ./images/small.jpg[57D[P[P[55C  [55D/main.py -e -m ./messages/text.txt -i ./images/small.jpg[56D./main.py -e -m ./messages/text.txt -i ./images/small.jpg[46Da[2Ci[3C[30P[9C -i ./encrypted/encryptedImage.png[48D                                                [49D[?2004l
+[1m[3m%[23m[1m[0m                                                                                                                       ]7;file://Carters-MacBook-Pro-7.local/Users/carterengberg/Hash/hashlab/src[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [K[?2004h./HashStats.py -i shak/shak.orig[32D                                [32D./HashStats.py -i shak/shak.orig[32D                                [32D./HashStats.py -i shak/shak.orig[30DMakeHashes.sh                 [17D[15Dmake clean && make runner[25Dnano Hashes.cpp          [10D[15Dmake clean && make runner[25D./MakeHashes.sh          [10D[13DHashStats.py -i shak/shak.orig[32D                                [32D./HashStats.py -i shak/shak.orig[30DMakeHashes.sh                 [17D[15Dmake clean && make runner[25Dnano Hashes.cpp          [10D[?2004l
+[?1049h[1;66r[1;1H[J[3m  UW PICO 5.09                                              New Buffer                                                 [23m[65;1H[K[66;1H[K[65;1H[3m^[23m[3mG[23m Get Help        [3m^[23m[3mO[23m WriteOut        [3m^[23m[3mR[23m Read File       [3m^[23m[3mY[23m Prev Pg         [3m^[23m[3mK[23m Cut Text        [3m^[23m[3mC[23m Cur Pos         [K[66;1H[3m^[23m[3mX[23m Exit            [3m^[23m[3mJ[23m Justify         [3m^[23m[3mW[23m Where is        [3m^[23m[3mV[23m Next Pg         [3m^[23m[3mU[23m UnCut Text      [3m^[23m[3mT[23m To Spell        [K[3;1H[64;1H                                                                                                                       [64;52H[3m[ Reading file ][23m[64;1H                                                                                                                       [64;51H[3m[ Read 214 lines ][23m[1;1H[J[3m  UW PICO 5.09                                           File: Hashes.cpp                                              [23m[3;1H#include "Hashes.h"[5;1H#include "Random.h"[7;1H#include <stdio.h>[8;1H#include <stdlib.h>[9;1H//#include <stdint.h>[10;1H#include <assert.h>[11;1H//#include <emmintrin.h>[12;1H//#include <xmmintrin.h>[15;1H//best hash in the whole world[16;1Hvoid StudentHash(const void * key, int len, uint32_t seed, void * out) {[18;9H#define LOG 0 // set to 1 to print logs -- 0 to disable[19;9Huint32_t digest = 0xdeadbeef; // initialization vector (initial value) for hash[21;5H//some initialization stuff (some is usually done in preprocessor, but this is for smhasher)[23;9H// data is an array of the bytes to be hashed in case you want it[24;5Hconst uint8_t* data = (const uint8_t*) key;[26;9H// u32data is the data bytes but in an array of unsigned 32-bit values,[27;9H// i.e., it allows you to access four bytes at a time instead of one by one[28;9Hconst uint32_t* u32data = (const uint32_t*) key;[30;5Hint CHUNK_SIZE = 4;[31;9Hunsigned int idx = 0; // what chunk are we on?[33;9H// for every chunk of four bytes, XOR each chunk on top of the previous digest[34;9Hwhile (idx < (len / CHUNK_SIZE))[35;9H{[36;17H// print idx and current values to stdout as hexadecimal[37;17H// WARNING: printing to stdout is SLOW![38;9H//      if (LOG) { printf("digest: %08x - idx %u - %08x (printing is slow!)\n", digest, idx, u32data[idx]); }[40;17H/****************************************************[41;18H* COMBINE step -- combine input with current state *[42;18H***************************************************/[43;17H// XOR current digest with current chunk of u32data[idx][44;17Hdigest = digest ^ u32data[idx];[46;17H/**********************************************************[47;18H* MIX step -- randomize the state somehow (e.g., rotate) *[48;18H*********************************************************/[50;17H// Variable that is set to the amount of rotation we want to do[51;17Huint32_t rotation_amount = u32data[idx] % 256;[53;17H// Rotate the digest left by the rotation amount[54;17Hdigest = (digest << rotation_amount) ^ (digest >> (256 - rotation_amount));[57;17H/*****************************[58;18H* PREPARE for next chunk... *[59;18H****************************/[60;17Hidx = idx + 1; // increment idx for next chunk[61;9H}[63;9H// smhasher pads data with zeros to multiples of 32-bits,[65;1H[K[66;1H[K[65;1H[3m^[23m[3mG[23m Get Help        [3m^[23m[3mO[23m WriteOut        [3m^[23m[3mR[23m Read File       [3m^[23m[3mY[23m Prev Pg         [3m^[23m[3mK[23m Cut Text        [3m^[23m[3mC[23m Cur Pos         [K[66;1H[3m^[23m[3mX[23m Exit            [3m^[23m[3mJ[23m Justify         [3m^[23m[3mW[23m Where is        [3m^[23m[3mV[23m Next Pg         [3m^[23m[3mU[23m UnCut Text      [3m^[23m[3mT[23m To Spell        [K[3;1H[4;1H[5;1H[6;1H[7;1H[8;1H[9;1H[10;1H[11;1H[12;1H[13;1H[14;1H[15;1H[16;1H[17;1H[18;1H[19;1H[20;1H[21;1H[22;1H[23;1H[24;1H[25;1H[26;1H[27;1H[28;1H[29;1H[30;1H[31;1H[32;1H[33;1H[34;1H[35;1H[36;1H[37;1H[38;1H[39;1H[40;1H[41;1H[42;1H[43;1H[44;1H[45;1H[46;1H[47;1H[48;1H[49;1H[48;1H[47;1H[46;1H[47;1H[48;1H[49;1H[50;1H[51;1H[52;1H[51;63H[51;62H[1;54H[3mFile: Hashes.cpp                                        Modified[23m[51;61H; [51;61H[51;60H; [51;60H[51;59H; [51;59H3;[51;60H2;[51;61H[52;1H[53;61H[54;61H[54;62H[54;63H[54;64H[54;65H[54;66H[54;67H[54;68H[54;69H[54;70H[54;71H[54;70H[P[54;70H[54;69H[P[54;69H[54;68H[P[54;68H[4h3[4l[54;69H[4h2[4l[54;70H[65;1H                   [3mY[23m Yes                                                                                          [K[66;2H[3mC[23m Cancel          [3mN[23m No                                                                                           [K[64;1H                                                                                                                       [64;1H[3mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                           [64;62H[23m[3mYes[23m[64;1H                                                                                                                       [64;1H[3mFile Name to write :                                                                                                   [64;22H[23m[65;1H[3m^[23m[3mG[23m Get Help        [3m^[23m[3mT[23m  To Files                                                                                   [K[66;20H[3mT[23m[3mA[23m[3mB[23m Complete                                                                                   [K[3m[64;22HHashes.cpp                                                                                        [64;32H[23m[64;1H                                                                                                                       [64;53H[3m[ Writing... ][23m[64;1H                                                                                                                       [64;51H[3m[ Wrote 214 lines ][23m[65;1H[K[66;1H[K[?1049l[1m[3m%[23m[1m[0m                                                                                                                       ]7;file://Carters-MacBook-Pro-7.local/Users/carterengberg/Hash/hashlab/src[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [K[?2004hnano Hashes.cpp[15D./HashStat[2Cpy -i shak/shak.orig[30DMakeHashes.sh                 [17D[15Dmake clean && make runner[?2004l
+rm -rf *.o smhasher runner
+g++  StudentHashRunner.c Hashes.cpp -o runner
+clang: [0;1;35mwarning: [0m[1mtreating 'c' input as 'c++' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+[1m[3m%[23m[1m[0m                                                                                                                       ]7;file://Carters-MacBook-Pro-7.local/Users/carterengberg/Hash/hashlab/src[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [K[?2004hmake clean && make runner[25Dnano Hashes.cpp          [10D[15D./HashStat[2Cpy -i shak/shak.orig[30DMakeHashes.sh                 [17D[?2004l
+Creating a/a.orig...
+Creating a/a.mod...
+Creating a/mod.alt (alternating)
+Creating ones/ones.orig...
+Creating ones/ones.mod...
+Creating ones/mod.alt (alternating)
+Creating shak/shak.orig...
+Creating shak/shak.mod...
+Creating shak/mod.alt (alternating)
+Creating zero/zero.orig...
+Creating zero/zero.mod...
+Creating zero/mod.alt (alternating)
+Creating random/random.orig...
+Creating random/random.mod...
+Creating random/mod.alt (alternating)
+[1m[3m%[23m[1m[0m                                                                                                                       ]7;file://Carters-MacBook-Pro-7.local/Users/carterengberg/Hash/hashlab/src[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [K[?2004h./MakeHashes.sh[15D               [15Dsscreen -L[?2004l
+[1m[3m%[23m[1m[0m                                                                                                                       ]7;file://Carters-MacBook-Pro-7.local/Users/carterengberg/Hash/hashlab/src[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [K[?2004h[0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % [0m[23m[24m[Jcarterengberg@Carters-MacBook-Pro-7 src % 
